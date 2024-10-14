@@ -1,0 +1,104 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 50px;
+    margin: 0;
+    background-color: rgb(254, 210, 216);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+#divKape {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(255, 248, 248);
+    width: 70vw;
+    height: 70vh;
+    padding: 50px;
+    border-radius: 40px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, .053);
+}
+
+#divContent{
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+#divSelect{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#divOrders{
+    justify-content: start;
+    display: flex;
+    flex-direction: column;
+    width: 50vw;
+    height: 400px;
+    align-self: start;
+    overflow-y: scroll;
+}
+
+h1 {
+    text-align: start;
+    margin: 0;
+    margin-bottom: 5px;
+    font-size: 24px;
+}
+
+select {
+    width: 250px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border:  1px solid rgba(0, 0, 0, .23);
+    padding:  5px 0;
+
+}
+
+option{
+    height: 24px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding-left: 10px;
+}
+h3{
+    font-size: 18px;
+    font-weight: 400;
+    margin: 0;
+}
+
+tr td{
+    text-align: center;
+    height: 35px;
+}
+tr td:first-child{
+    text-align: left;
+}
+tr td input{
+    text-align: center;
+    /* border: none; */
+    padding:5px;
+}
+tfoot td:first-child{
+    text-align: left;
+}
+
+div button{
+    height: 32px;
+    width: 32px;
+}
+
+
+
+
