@@ -177,3 +177,5 @@ function makeSelection(divOption, arrOption, frag) {
 
 makeSelection(divCoffee, coffee, fragCoffee);
 makeSelection(divCakes, cakes, fragCakes);
+
+//dijkhv
